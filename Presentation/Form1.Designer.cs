@@ -68,6 +68,7 @@ namespace Presentation
             // SalesReportBindingSource
             // 
             this.SalesReportBindingSource.DataSource = typeof(Domain.SalesReport);
+            this.SalesReportBindingSource.CurrentChanged += new System.EventHandler(this.SalesReportBindingSource_CurrentChanged);
             // 
             // panel1
             // 
