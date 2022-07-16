@@ -1443,7 +1443,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>NETWORK STUDIO</Value>
+                      <Value>UFOSTART DEVELOPMENT</Value>
                       <Style>
                         <FontStyle>Italic</FontStyle>
                         <FontSize>18pt</FontSize>
@@ -1453,7 +1453,7 @@
                     </TextRun>
                   </TextRuns>
                   <Style>
-                    <TextAlign>Center</TextAlign>
+                    <TextAlign>Left</TextAlign>
                   </Style>
                 </Paragraph>
               </Paragraphs>
@@ -1461,7 +1461,7 @@
               <Top>0.59945cm</Top>
               <Left>0.81094in</Left>
               <Height>0.33333in</Height>
-              <Width>2.37027in</Width>
+              <Width>3.8286in</Width>
               <ZIndex>1</ZIndex>
               <Style>
                 <Border>
