@@ -1,7 +1,7 @@
 ﻿
 namespace Presentation
 {
-    partial class Form1
+    partial class Proyecto
     {
         /// <summary>
         /// Required designer variable.
@@ -33,6 +33,7 @@ namespace Presentation
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource3 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Proyecto));
             this.NetSalesByPeriodBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.SalesListingBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.SalesReportBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -253,16 +254,17 @@ namespace Presentation
             this.reportViewer1.Size = new System.Drawing.Size(844, 519);
             this.reportViewer1.TabIndex = 3;
             // 
-            // Form1
+            // Proyecto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1078, 519);
             this.Controls.Add(this.reportViewer1);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Proyecto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Proyecto inovador";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.NetSalesByPeriodBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SalesListingBindingSource)).EndInit();
