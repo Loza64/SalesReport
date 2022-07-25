@@ -83,10 +83,5 @@ namespace Presentation
                 this.reportViewer1.RefreshReport();
             }
         }
-
-        private void SalesReportBindingSource_CurrentChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
