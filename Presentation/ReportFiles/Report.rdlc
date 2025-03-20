@@ -525,7 +525,7 @@
                                   <Value>N°</Value>
                                   <Style>
                                     <FontFamily>Arial Black</FontFamily>
-                                    <Color>#00ffffff</Color>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -540,7 +540,7 @@
                               <Color>Lime</Color>
                               <Style>None</Style>
                             </Border>
-                            <BackgroundColor>MidnightBlue</BackgroundColor>
+                            <BackgroundColor>Blue</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -561,7 +561,7 @@
                                   <Value>Ventas</Value>
                                   <Style>
                                     <FontFamily>Arial Black</FontFamily>
-                                    <Color>#00ffffff</Color>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -576,7 +576,7 @@
                               <Color>Lime</Color>
                               <Style>None</Style>
                             </Border>
-                            <BackgroundColor>MidnightBlue</BackgroundColor>
+                            <BackgroundColor>Blue</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -597,7 +597,7 @@
                                   <Value>Fecha</Value>
                                   <Style>
                                     <FontFamily>Arial Black</FontFamily>
-                                    <Color>#00ffffff</Color>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -612,7 +612,7 @@
                               <Color>Lime</Color>
                               <Style>None</Style>
                             </Border>
-                            <BackgroundColor>MidnightBlue</BackgroundColor>
+                            <BackgroundColor>Blue</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -806,7 +806,7 @@
                               <Color>LightGrey</Color>
                               <Style>None</Style>
                             </Border>
-                            <BackgroundColor>MidnightBlue</BackgroundColor>
+                            <BackgroundColor>Blue</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -972,7 +972,7 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <BackgroundColor>MidnightBlue</BackgroundColor>
+                            <BackgroundColor>Blue</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1007,7 +1007,7 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <BackgroundColor>MidnightBlue</BackgroundColor>
+                            <BackgroundColor>Blue</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1042,7 +1042,7 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <BackgroundColor>MidnightBlue</BackgroundColor>
+                            <BackgroundColor>Blue</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1077,7 +1077,7 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <BackgroundColor>MidnightBlue</BackgroundColor>
+                            <BackgroundColor>Blue</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1112,7 +1112,7 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <BackgroundColor>MidnightBlue</BackgroundColor>
+                            <BackgroundColor>Blue</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1595,7 +1595,7 @@
             <Border>
               <Style>None</Style>
             </Border>
-            <BackgroundColor>MidnightBlue</BackgroundColor>
+            <BackgroundColor>Blue</BackgroundColor>
           </Style>
         </PageHeader>
         <PageFooter>
@@ -1697,7 +1697,7 @@
             <Border>
               <Style>None</Style>
             </Border>
-            <BackgroundColor>DarkBlue</BackgroundColor>
+            <BackgroundColor>Blue</BackgroundColor>
           </Style>
         </PageFooter>
         <Style />

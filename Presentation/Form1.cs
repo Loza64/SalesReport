@@ -1,12 +1,5 @@
 ﻿using Domain;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Presentation
@@ -74,7 +67,7 @@ namespace Presentation
 
         private void button7_Click(object sender, EventArgs e)
         {
-            if(dtmfromdate.Value < dtmtodate.Value)
+            if (dtmfromdate.Value < dtmtodate.Value)
             {
                 getSalesReport(dtmfromdate.Value, new DateTime(dtmtodate.Value.Year, dtmtodate.Value.Month, dtmtodate.Value.Day, 23, 59, 59));
             }
