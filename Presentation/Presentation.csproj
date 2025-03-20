@@ -90,6 +90,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <EmbeddedResource Include="ReportFiles\Report.rdlc" />
+    <None Include="BackupDB\BikeStore.bak" />
     <None Include="packages.config" />
     <None Include="Properties\DataSources\Domain.NetSalesByPeriod.datasource" />
     <None Include="Properties\DataSources\Domain.SalesListing.datasource" />
