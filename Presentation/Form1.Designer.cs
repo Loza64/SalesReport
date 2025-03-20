@@ -38,13 +38,12 @@ namespace Presentation
             this.SalesListingBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.SalesReportBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.dtmtodate = new System.Windows.Forms.DateTimePicker();
             this.dtmfromdate = new System.Windows.Forms.DateTimePicker();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.dtmtodate = new System.Windows.Forms.DateTimePicker();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -52,8 +51,9 @@ namespace Presentation
             this.button1 = new System.Windows.Forms.Button();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.exitPanel = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.NetSalesByPeriodBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SalesListingBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SalesReportBindingSource)).BeginInit();
@@ -77,8 +77,6 @@ namespace Presentation
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.dtmfromdate);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
@@ -89,8 +87,45 @@ namespace Presentation
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(312, 686);
+            this.panel1.Size = new System.Drawing.Size(312, 750);
             this.panel1.TabIndex = 2;
+            // 
+            // dtmfromdate
+            // 
+            this.dtmfromdate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtmfromdate.Location = new System.Drawing.Point(79, 115);
+            this.dtmfromdate.Margin = new System.Windows.Forms.Padding(4);
+            this.dtmfromdate.Name = "dtmfromdate";
+            this.dtmfromdate.Size = new System.Drawing.Size(215, 22);
+            this.dtmfromdate.TabIndex = 6;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.panel2.Controls.Add(this.dtmfromdate);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.button7);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.dtmtodate);
+            this.panel2.Location = new System.Drawing.Point(0, 401);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(315, 349);
+            this.panel2.TabIndex = 11;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Arial Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(14, 179);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(32, 24);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "To";
             // 
             // button7
             // 
@@ -98,7 +133,7 @@ namespace Presentation
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button7.Font = new System.Drawing.Font("Arial Black", 10.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(6, 195);
+            this.button7.Location = new System.Drawing.Point(6, 236);
             this.button7.Margin = new System.Windows.Forms.Padding(4);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(299, 64);
@@ -107,78 +142,30 @@ namespace Presentation
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Red;
-            this.label2.Font = new System.Drawing.Font("Arial Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(22, 136);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(32, 24);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "To";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Red;
-            this.label1.Font = new System.Drawing.Font("Arial Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(13, 476);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 24);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "From";
-            // 
-            // dtmtodate
-            // 
-            this.dtmtodate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtmtodate.Location = new System.Drawing.Point(79, 138);
-            this.dtmtodate.Margin = new System.Windows.Forms.Padding(4);
-            this.dtmtodate.Name = "dtmtodate";
-            this.dtmtodate.Size = new System.Drawing.Size(215, 22);
-            this.dtmtodate.TabIndex = 7;
-            // 
-            // dtmfromdate
-            // 
-            this.dtmfromdate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtmfromdate.Location = new System.Drawing.Point(79, 477);
-            this.dtmfromdate.Margin = new System.Windows.Forms.Padding(4);
-            this.dtmfromdate.Name = "dtmfromdate";
-            this.dtmfromdate.Size = new System.Drawing.Size(215, 22);
-            this.dtmfromdate.TabIndex = 6;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Red;
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.button7);
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.dtmtodate);
-            this.panel2.Location = new System.Drawing.Point(0, 401);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(315, 285);
-            this.panel2.TabIndex = 11;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(32, 17);
+            this.label3.Location = new System.Drawing.Point(32, 58);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(233, 28);
             this.label3.TabIndex = 0;
             this.label3.Text = "Fecha Personalizada";
             // 
+            // dtmtodate
+            // 
+            this.dtmtodate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtmtodate.Location = new System.Drawing.Point(79, 179);
+            this.dtmtodate.Margin = new System.Windows.Forms.Padding(4);
+            this.dtmtodate.Name = "dtmtodate";
+            this.dtmtodate.Size = new System.Drawing.Size(215, 22);
+            this.dtmtodate.TabIndex = 7;
+            // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.Blue;
+            this.button5.BackColor = System.Drawing.Color.MidnightBlue;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.Font = new System.Drawing.Font("Arial Black", 10.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button5.ForeColor = System.Drawing.Color.White;
@@ -193,7 +180,7 @@ namespace Presentation
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.Blue;
+            this.button4.BackColor = System.Drawing.Color.MidnightBlue;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Font = new System.Drawing.Font("Arial Black", 10.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button4.ForeColor = System.Drawing.Color.White;
@@ -208,7 +195,7 @@ namespace Presentation
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.Blue;
+            this.button3.BackColor = System.Drawing.Color.MidnightBlue;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Arial Black", 10.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button3.ForeColor = System.Drawing.Color.White;
@@ -223,7 +210,7 @@ namespace Presentation
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Blue;
+            this.button2.BackColor = System.Drawing.Color.MidnightBlue;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Arial Black", 10.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button2.ForeColor = System.Drawing.Color.White;
@@ -238,7 +225,7 @@ namespace Presentation
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Blue;
+            this.button1.BackColor = System.Drawing.Color.MidnightBlue;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Arial Black", 10.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button1.ForeColor = System.Drawing.Color.White;
@@ -268,7 +255,7 @@ namespace Presentation
             this.reportViewer1.Margin = new System.Windows.Forms.Padding(4);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(1143, 651);
+            this.reportViewer1.Size = new System.Drawing.Size(1123, 715);
             this.reportViewer1.TabIndex = 3;
             // 
             // exitPanel
@@ -278,16 +265,8 @@ namespace Presentation
             this.exitPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.exitPanel.Location = new System.Drawing.Point(312, 0);
             this.exitPanel.Name = "exitPanel";
-            this.exitPanel.Size = new System.Drawing.Size(1143, 35);
+            this.exitPanel.Size = new System.Drawing.Size(1123, 35);
             this.exitPanel.TabIndex = 10;
-            // 
-            // panel3
-            // 
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(312, 35);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1143, 651);
-            this.panel3.TabIndex = 11;
             // 
             // button6
             // 
@@ -297,7 +276,7 @@ namespace Presentation
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold);
             this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(1110, 3);
+            this.button6.Location = new System.Drawing.Point(1090, 3);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(30, 30);
             this.button6.TabIndex = 0;
@@ -306,12 +285,33 @@ namespace Presentation
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click_1);
             // 
+            // panel3
+            // 
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(312, 35);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1123, 715);
+            this.panel3.TabIndex = 11;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Arial Black", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(14, 115);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(56, 24);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "From";
+            // 
             // Proyecto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1455, 686);
+            this.ClientSize = new System.Drawing.Size(1435, 750);
             this.Controls.Add(this.reportViewer1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.exitPanel);
@@ -319,8 +319,8 @@ namespace Presentation
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.MaximumSize = new System.Drawing.Size(1455, 686);
-            this.MinimumSize = new System.Drawing.Size(1455, 686);
+            this.MaximumSize = new System.Drawing.Size(1435, 750);
+            this.MinimumSize = new System.Drawing.Size(1435, 750);
             this.Name = "Proyecto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reporte";
@@ -329,7 +329,6 @@ namespace Presentation
             ((System.ComponentModel.ISupportInitialize)(this.SalesListingBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SalesReportBindingSource)).EndInit();
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.exitPanel.ResumeLayout(false);
@@ -342,7 +341,6 @@ namespace Presentation
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dtmtodate;
         private System.Windows.Forms.DateTimePicker dtmfromdate;
         private System.Windows.Forms.Button button5;
@@ -359,6 +357,7 @@ namespace Presentation
         private System.Windows.Forms.Panel exitPanel;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label1;
     }
 }
 

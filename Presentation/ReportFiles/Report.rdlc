@@ -135,7 +135,7 @@
                           <Style>DashDot</Style>
                           <Width>3pt</Width>
                         </Border>
-                        <Color>Blue</Color>
+                        <Color>LightSteelBlue</Color>
                         <BackgroundGradientType>None</BackgroundGradientType>
                         <BackgroundGradientEndColor>Black</BackgroundGradientEndColor>
                       </Style>
@@ -291,7 +291,7 @@
                       <FontFamily>Arial Black</FontFamily>
                       <FontWeight>Bold</FontWeight>
                       <Format>'$'#,0.00;('$'#,0.00)</Format>
-                      <Color>LimeGreen</Color>
+                      <Color>Green</Color>
                       <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
                     </Style>
                     <ChartAxisTitle>
@@ -540,7 +540,7 @@
                               <Color>Lime</Color>
                               <Style>None</Style>
                             </Border>
-                            <BackgroundColor>Blue</BackgroundColor>
+                            <BackgroundColor>MidnightBlue</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -576,7 +576,7 @@
                               <Color>Lime</Color>
                               <Style>None</Style>
                             </Border>
-                            <BackgroundColor>Blue</BackgroundColor>
+                            <BackgroundColor>MidnightBlue</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -612,7 +612,7 @@
                               <Color>Lime</Color>
                               <Style>None</Style>
                             </Border>
-                            <BackgroundColor>Blue</BackgroundColor>
+                            <BackgroundColor>MidnightBlue</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -806,7 +806,7 @@
                               <Color>LightGrey</Color>
                               <Style>None</Style>
                             </Border>
-                            <BackgroundColor>Blue</BackgroundColor>
+                            <BackgroundColor>MidnightBlue</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -972,7 +972,7 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <BackgroundColor>Blue</BackgroundColor>
+                            <BackgroundColor>MidnightBlue</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1007,7 +1007,7 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <BackgroundColor>Blue</BackgroundColor>
+                            <BackgroundColor>MidnightBlue</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1042,7 +1042,7 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <BackgroundColor>Blue</BackgroundColor>
+                            <BackgroundColor>MidnightBlue</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1077,7 +1077,7 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <BackgroundColor>Blue</BackgroundColor>
+                            <BackgroundColor>MidnightBlue</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1112,7 +1112,7 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <BackgroundColor>Blue</BackgroundColor>
+                            <BackgroundColor>MidnightBlue</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1421,7 +1421,7 @@
       <Width>21.74cm</Width>
       <Page>
         <PageHeader>
-          <Height>3.52076cm</Height>
+          <Height>3.62659cm</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
@@ -1447,8 +1447,8 @@
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox2</rd:DefaultName>
-              <Top>0.37198cm</Top>
-              <Left>0.81094in</Left>
+              <Top>0.2in</Top>
+              <Left>0.891in</Left>
               <Height>0.33333in</Height>
               <Width>3.8286in</Width>
               <Style>
@@ -1483,7 +1483,7 @@
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox2</rd:DefaultName>
-              <Top>1.5525cm</Top>
+              <Top>1.87cm</Top>
               <Left>0.19983in</Left>
               <Height>0.33333in</Height>
               <Width>8.10708in</Width>
@@ -1521,8 +1521,8 @@
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox2</rd:DefaultName>
-              <Top>0.28195cm</Top>
-              <Left>5.04389in</Left>
+              <Top>0.508cm</Top>
+              <Left>5.04388in</Left>
               <Height>0.33333in</Height>
               <Width>3.26302in</Width>
               <ZIndex>2</ZIndex>
@@ -1560,8 +1560,8 @@
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox2</rd:DefaultName>
-              <Top>2.48889cm</Top>
-              <Left>0.19983in</Left>
+              <Top>2.77994cm</Top>
+              <Left>0.19982in</Left>
               <Height>0.33333in</Height>
               <Width>8.10708in</Width>
               <ZIndex>3</ZIndex>
@@ -1579,8 +1579,8 @@
               <Source>Embedded</Source>
               <Value>icon</Value>
               <Sizing>FitProportional</Sizing>
-              <Top>0.02081cm</Top>
-              <Left>0.19983in</Left>
+              <Top>0.23248cm</Top>
+              <Left>0.23771in</Left>
               <Height>0.57525in</Height>
               <Width>0.55934in</Width>
               <ZIndex>4</ZIndex>
@@ -1595,7 +1595,7 @@
             <Border>
               <Style>None</Style>
             </Border>
-            <BackgroundColor>Blue</BackgroundColor>
+            <BackgroundColor>MidnightBlue</BackgroundColor>
           </Style>
         </PageHeader>
         <PageFooter>
@@ -1697,7 +1697,7 @@
             <Border>
               <Style>None</Style>
             </Border>
-            <BackgroundColor>Blue</BackgroundColor>
+            <BackgroundColor>MidnightBlue</BackgroundColor>
           </Style>
         </PageFooter>
         <Style />
