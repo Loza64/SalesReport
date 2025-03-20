@@ -76,5 +76,10 @@ namespace Presentation
                 this.reportViewer1.RefreshReport();
             }
         }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
