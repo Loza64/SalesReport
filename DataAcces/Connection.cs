@@ -7,7 +7,7 @@ namespace BDConnect
         protected SqlConnection GetSqlConnection()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "Server=(local); DataBase=BikeStore; Integrated Security=true;";
+            con.ConnectionString = "Server=(local); DataBase=BikeStore; User ID=sa; Password=PackCode*503;";
             return con;
         }
     }
